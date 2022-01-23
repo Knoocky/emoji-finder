@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #CCF8FF;
+
+  background: linear-gradient(92.33deg, #196B78 0.12%, #138496 100%);
+  box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+  min-height: 295px;
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+
+.App-header h1 {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 87px;
+  margin: 0;
+}
+
+.App-header p {
+  font-size: 21px;
+  line-height: 36px;
+  opacity: 75%;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  margin: auto;
+  max-width: 986px;
+}
+
+.App-main .search {
+  border: 1px solid #CED4DA;
+  box-sizing: border-box;
+  border-radius: 4px;
+  align-self: start;
+  font-size: 24px;
+  line-height: 21px;
+  margin: auto;
+  margin-top: -32px;
+  padding: 22px 31px;
+  width: 820px;
+}
+
+.App-main .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 47px;
+}
+
+.App-main .card {
+  background: #fff;
+  border: 1px solid #DEE2E6;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  padding: 24px;
+  height: 186px;
+  width: 316px;
+}
+
+.App-main .card p {
+  margin: 0;
+}
+
+.App-main .card .emoji {
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 18px;
+}
+
+.App-main .card .emoji-name {
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 12px;
+  text-decoration: underline;
+}
+
+.App-main .card .emoji-tags {
+  color: #3F444A;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.filling-empty-space-childs {
+  width: 316px; /*the width of the images in this example*/
+  height: 0; /*Important! for the divs to collapse should they fall in a new row*/
+}
